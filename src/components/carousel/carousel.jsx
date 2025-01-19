@@ -16,7 +16,7 @@ function Carousel({ className = "", images }) {
       <button className="carousel-button" onClick={() => left()}>
         Left
       </button>
-      <img src={images[count]} className="m-2" />
+      <img src={images[count]} className="m-2" alt="carousel" />
       <button className="carousel-button" onClick={() => right()}>
         Right
       </button>
